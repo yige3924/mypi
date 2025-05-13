@@ -16,6 +16,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * 全局视图拦截器，向所有视图添加站点配置和用户信息
+ *
  * @author XieYun
  * @date 2025/5/13
  */

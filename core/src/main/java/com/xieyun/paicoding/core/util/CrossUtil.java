@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 public class CrossUtil {
 
     /**
-     * 支持跨域
+     * 处理跨域请求配置，设置CORS相关响应头
      *
      * @param request
      * @param response
@@ -28,10 +28,7 @@ public class CrossUtil {
             response.setHeader("Access-Control-Allow-Origin", origin);
         }
 
-        /**
-         * fixme 这里不确定为什么要写
-         */
-        // response.setHeader("Access-Control-Allow-Origin". request.getHeader("Origin"));
+        // response.setHeader("Access-Control-Allow-Origin", request.getHeader("Origin"));
         response.setHeader("Access-Control-Allow-Credentials", "true");
         response.setHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PUT, DELETE, HEAD");
         response.setHeader("Access-Control-Max-Age", "3600");

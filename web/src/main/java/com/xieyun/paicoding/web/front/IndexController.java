@@ -12,6 +12,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * 处理首页请求，准备视图模板所需数据
+ *
  * @author XieYun
  * @date 2025/5/13
  */

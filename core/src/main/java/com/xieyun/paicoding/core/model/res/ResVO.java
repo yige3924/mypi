@@ -5,6 +5,8 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
+ * 统一API响应格式，包含状态码和业务数据
+ *
  * @author XieYun
  * @date 2025/5/11
  */

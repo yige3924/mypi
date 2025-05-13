@@ -6,6 +6,8 @@ import org.apache.commons.lang3.StringUtils;
 import javax.servlet.http.HttpServletRequest;
 
 /**
+ * 获取客户端真实IP地址，支持通过代理服务器转发的请求
+ *
  * @author XieYun
  * @date 2025/5/11
  */
